@@ -1,15 +1,15 @@
 class Devgod < Formula
   desc "devgod CLI"
   homepage "https://github.com/jeethsoni/devgod-cli"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jeethsoni/devgod-cli/releases/download/v0.1.0/devgod_darwin_arm64"
-      sha256 "ad78292f89fd178cdd6bf01411c8637a2a7e9a6869e78e2e3d84251ee1a64c83"
+      url "https://github.com/jeethsoni/devgod-cli/releases/download/v0.1.1/devgod_darwin_arm64"
+      sha256 "ac999aefeaf4f922d4a3d27125db44cc2660d43792a293884347f8585d45fe3d"
     else
-      url "https://github.com/jeethsoni/devgod-cli/releases/download/v0.1.0/devgod_darwin_amd64"
-      sha256 "63644891c0daa174552bb476be94f2b7f94a0a2b2c3b9eff69701d653a803002"
+      url "https://github.com/jeethsoni/devgod-cli/releases/download/v0.1.1/devgod_darwin_amd64"
+      sha256 "b19f2381a0688d032be6eff5027619229abd019dd38307c4e4399579d8323763"
     end
   end
 
